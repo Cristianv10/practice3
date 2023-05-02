@@ -170,25 +170,26 @@ text-align: justify;
         min-height: 100vh;
         display: grid;
         grid-template-rows: 40%;
-       
+        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+  
     }
     .left_container{
         grid-column: 1/-1;
         justify-content: center;
         text-align: center;
+        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+
     }
     .contact_information{
         position: relative;
         justify-content: center;
         text-align: center;
     }
-
     .right_container{
         grid-column: 1/-1;
         justify-content: center;
         text-align: center;
 }
-
 
 }
 
@@ -199,12 +200,16 @@ text-align: justify;
         min-height: 100vh;
         display: grid;
         grid-template-rows: 33%;
+        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+
        
     }
     .left_container{
         grid-column: 1/-1;
         justify-content: center;
         text-align: center;
+        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+
     }
     .contact_information{
         position: relative;
