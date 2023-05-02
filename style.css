@@ -139,9 +139,83 @@ text-align: justify;
     body{
         background-color: lightblue ;
         min-height: 100vh;
-        display: flex;
+        display: grid;
+        grid-template-rows: 55%;
+       
     }
+    .left_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact_information{
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
 }
 
 
-  
+}
+
+@media all and (max-width: 425px) {
+
+    body{
+        background-color: lightblue ;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 40%;
+       
+    }
+    .left_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact_information{
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
+}
+
+
+}
+
+@media all and (max-width: 320px) {
+
+    body{
+        background-color: lightblue ;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 33%;
+       
+    }
+    .left_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact_information{
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right_container{
+        grid-column: 1/-1;
+        justify-content: center;
+        text-align: center;
+}
+
+}
