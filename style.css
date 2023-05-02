@@ -16,7 +16,7 @@ font-size: 22px;
 
 img {
     display: block;
-    margin: 0 auto; 
+    margin: 10px auto; 
     max-width: 30%; 
     height: auto;
     border-radius: 20px;
@@ -24,7 +24,7 @@ img {
     }
 
 .left_container{
-background-color: rgb(230, 190, 116);
+background-color: rgb(234, 215, 179);
 color: aliceblue;
 margin: 0;
 padding: 0;
@@ -83,11 +83,14 @@ width: 40%;
 height: 20px;
 background-color: #ddd;
 
+
+
 }
 progress::-webkit-progress-bar {
 background-color: #ddd;
 border-radius: 5px;
 padding: 3px;
+
 
 }
   
@@ -170,14 +173,14 @@ text-align: justify;
         min-height: 100vh;
         display: grid;
         grid-template-rows: 40%;
-        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+        background-image: linear-gradient(to bottom right, lightblue,rgb(234, 215, 179));
   
     }
     .left_container{
         grid-column: 1/-1;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+        background-image: linear-gradient(to bottom right, lightblue, rgb(234, 215, 179));
 
     }
     .contact_information{
@@ -200,7 +203,7 @@ text-align: justify;
         min-height: 100vh;
         display: grid;
         grid-template-rows: 33%;
-        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+        background-image: linear-gradient(to bottom right, lightblue, rgb(234, 215, 179));
 
        
     }
@@ -208,7 +211,7 @@ text-align: justify;
         grid-column: 1/-1;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(to bottom right, lightblue, rgb(230, 190, 116));
+        background-image: linear-gradient(to bottom right, lightblue, rgb(234, 215, 179));
 
     }
     .contact_information{
