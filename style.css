@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, sans-serif;
+}
+
+body{
+background-color: lightblue ;
+min-height: 100vh;
+display: grid;
+grid-template-columns: 35% 1fr;
+grid-template-rows: 100%;
+font-size: 22px;
+}
+
+img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 30%; 
+    height: auto;
+    border-radius: 20px;
+
+    }
+
+.left_container{
+background-color: rgb(230, 190, 116);
+color: aliceblue;
+margin: 0;
+padding: 0;
+align-items: top;
+grid-column-start: 1;
+grid-column-end: 1;
+
+}
+
+h2{
+margin-left: 5px;
+padding-top: 5px;
+padding-bottom: 10px ;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul{
+margin-left: 10px;
+padding-left: 2px;
+padding-top: 5px;
+list-style: none;}
+
+li{
+padding-bottom: 8px;
+color: black;
+text-align: justify;
+
+}
+
+.linkedin{
+cursor: pointer;
+}
+
+.skills{
+margin-left: 10px;
+padding-left: 2px;
+padding-top: 5px;
+margin-right: 20px;
+list-style: none;
+}
+
+.soft_skills{
+margin-left: 0px;
+padding-left: 0px;
+padding-top: 5px;
+margin-right: 20px;
+list-style: none;   
+}
+
+
+progress {
+width: 40%;
+height: 20px;
+background-color: #ddd;
+
+}
+progress::-webkit-progress-bar {
+background-color: #ddd;
+border-radius: 5px;
+padding: 3px;
+
+}
+  
+progress::-webkit-progress-value {
+background-color: #0077be;
+  }
+
+.right_container {
+    margin: 10px;
+    margin-left: 20px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-end: auto;
+    position: relative;
+}
+h1{
+padding-bottom: 10px ;
+font-size: 30px;
+color: aliceblue;
+display: flex;
+justify-content:flex-start;
+
+}
+
+p{
+text-align: justify;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 12px;
+}
+
+.info{
+background-color:gray;
+color: aliceblue;
+justify-content: left;
+border: 1px solid;
+margin-left: 0px;
+padding-left: 5px;
+padding-top: 5px;
+border-radius: 10px;
+}
+
+.extra_information{
+text-align: justify;
+}
+  
+@media all and (max-width: 780px) {
+
+    body{
+        background-color: lightblue ;
+        min-height: 100vh;
+        display: flex;
+    }
+}
+
+
+  
